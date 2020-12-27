@@ -31,7 +31,7 @@ if 3<=n<5:
         ele = str(input())   
         lst.append(ele)
     print(lst) 
-    v=input("You have to choose one of these courses and take an exam. Please write what you get from which exam and seperate them by ':'. ")
+    v=input("You have to choose one of these courses and take an exam. Please write what you get from which exam and seperate them by ':', example-> midterm:your score final:your score project:your score. ") 
     temp=v.split(' ')
     v=[]
     for i in range(len(temp)):
